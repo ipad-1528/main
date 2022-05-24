@@ -3,3 +3,14 @@ body{
   color:#ffffff;
   font-family: 'Courier New', Courier, monospace;
 }
+
+canvas{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  background:#000000;
+  border:#666666 solid 3px;
+  width:100vh;
+  height:75vh;
+}
