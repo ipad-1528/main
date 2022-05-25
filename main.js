@@ -1,5 +1,5 @@
 const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext(canvas);
+const ctx = canvas.getContext('2d');
 
 const CW = 400;
 const CH = 300;
