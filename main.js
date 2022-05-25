@@ -54,6 +54,7 @@ const game = {
 }
 
 game.add_sprite('player',0,0,'');
+game.add_sprite('player',100,0,'');
 game.add_blocks('normal',100,100,'');
 
 function mainloop()
