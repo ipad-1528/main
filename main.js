@@ -8,10 +8,10 @@ canvas.width  = CW;
 canvas.height = CH;
 
 const mainloopdelay = 1
-let interval;
+let gameinterval;
 
 canvas.onclick = () => {
-  interval = setInterval(mainloop,mainloopdelay)
+  gameinterval = setInterval(mainloop,mainloopdelay)
   canvas.onclick = null;
 }
 
