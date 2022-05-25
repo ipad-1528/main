@@ -60,7 +60,7 @@ function mainloop()
 {
   ctx.clearRect(0,0,CW,CH);
   for(let i of game.sprite){
-    ctx.fillStlye='#00ff00';
+    ctx.fillStyle='#00ff00';
     ctx.fillRect(i.x,i.y,10,10)
   }
 }
